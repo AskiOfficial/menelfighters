@@ -13,3 +13,7 @@ postac-mlody
 poruszanie sie-grechu
 menu-bartek
 ewentualnie pause menu - bartek
+Muzyka-marcel
+Lore-Kacper, stasiu
+Dubbing- stasiu
+Postacie(lore,opis)-stas
