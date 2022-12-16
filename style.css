@@ -14,6 +14,7 @@ body{
      background-image: url('tlo.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 .download-btn{
     background-color: chocolate;
