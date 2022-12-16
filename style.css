@@ -15,6 +15,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: 1920px 1080px;
 }
 .download-btn{
     background-color: chocolate;
