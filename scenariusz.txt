@@ -1,0 +1,15 @@
+1.Zaczynasz jako menel.
+2.system walki(turowy), miasto, systemn przetrwania, rng przeszukiwanie smietnikow, system dnia i nocy, hp & glod & pragnienie & temperatura, sprzedaz, kupno, zarobek, animacje i arty
+gang meneli.
+ekonomia(pozniej), stamina(pozniej),drzewko umiejejetosci(pozmnioej),kilka zakonczeni(pozniej), zbieramnie sojusznikow(pozniej)
+system walki-Adi, gregory
+system przetrwania-Mlody
+rng-bartek
+arty i animacje-pablo
+miasto-pablo
+sprzedaz kupno zarobek-pabo/adi
+wczytywanie iu zapis gry-grzechu
+postac-mlody
+poruszanie sie-grechu
+menu-bartek
+ewentualnie pause menu - bartek
