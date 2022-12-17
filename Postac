@@ -1,0 +1,84 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Postac : MonoBehaviour
+{
+    public int hp;
+    public float temperatura;
+
+    public int glod;
+    public int odjacGlod;
+
+    public float pragnienie;
+    public int odjacPragnienie;
+
+    [Header("Cooldawn pragnienie w sek")]
+    public float cooldawnP;
+    private float lastCooldawnP;
+
+    [Header("Cooldawn glodu w sek")]
+    public float cooldawnG;
+    private float lastCooldawnG;
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        Pragnienie();
+        Glod();
+        Hp();
+
+    }
+
+    void Pragnienie()
+    {
+        if (Time.time - lastCooldawnP < cooldawnP)
+        {
+            return;
+        }
+        lastCooldawnP = Time.time;
+
+        if (pragnienie > 0)
+        {
+            pragnienie -= odjacPragnienie;
+        }else
+        {
+            if (hp > 0)
+            {
+                hp--;
+            }
+            
+        }
+    }
+    void Glod()
+    {
+        if (Time.time - lastCooldawnG < cooldawnG)
+        {
+            return;
+        }
+        lastCooldawnG = Time.time;
+
+        if (glod > 0)
+        {
+            glod -= odjacGlod;
+        }
+        else
+        {
+            if (hp > 0)
+            {
+                hp--;
+            }
+        }
+    }
+
+    void Hp()
+    {
+        if (hp <= 0)
+        {
+            Debug.Log("Umarles");
+        }
+    }
