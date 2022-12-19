@@ -17,5 +17,5 @@ Muzyka-marcel
 Lore-Kacper, stasiu
 Dubbing- stasiu
 Postacie(lore,opis)-stas
-Sojusznicy-???
-System szukania/zdobywania sojuszników 
+System szukania/zdobywania sojuszników-???
+System przeszukiwania śmietników RNG-???
