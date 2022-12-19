@@ -17,3 +17,4 @@ Muzyka-marcel
 Lore-Kacper, stasiu
 Dubbing- stasiu
 Postacie(lore,opis)-stas
+Sojusznicy-???
