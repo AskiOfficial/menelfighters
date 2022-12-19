@@ -1,7 +1,7 @@
 1.Zaczynasz jako menel.
 2.system walki(turowy), miasto, systemn przetrwania, rng przeszukiwanie smietnikow, system dnia i nocy, hp & glod & pragnienie & temperatura, sprzedaz, kupno, zarobek, animacje i arty
 gang meneli.
-ekonomia(pozniej), stamina(pozniej),drzewko umiejejetosci(pozmnioej),kilka zakonczeni(pozniej), zbieramnie sojusznikow(pozniej)
+ekonomia(pozniej), stamina(pozniej),drzewko umiejejetosci(pozmnioej),kilka zakonczeni(później)
 system walki-Adi, gregory
 system przetrwania-Mlody
 rng-bartek
@@ -18,3 +18,4 @@ Lore-Kacper, stasiu
 Dubbing- stasiu
 Postacie(lore,opis)-stas
 Sojusznicy-???
+System szukania/zdobywania sojuszników 
