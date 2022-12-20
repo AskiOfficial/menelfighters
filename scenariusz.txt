@@ -19,3 +19,4 @@ Dubbing- stasiu
 Postacie(lore,opis)-stas
 System szukania/zdobywania sojuszników-???
 System przeszukiwania śmietników RNG-???
+dwie waluty[oficjalna(np. Eurekon, Federal Coin, korona srebna) i nieoficjialna(np. srebrniki)]
