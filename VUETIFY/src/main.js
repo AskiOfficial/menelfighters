@@ -14,4 +14,6 @@ const vuetify = createVuetify({
     directives,
 })
 
+/* eslint-disable */
+console.log('Ignore me'); // eslint-disable-line no-console
 createApp(App).use(router).use(vuetify).mount('#app')

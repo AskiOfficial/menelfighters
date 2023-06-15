@@ -32,7 +32,7 @@ right{
 }
 
 body{
-  background-color: #1a1616;
+  background-color: #2c2525;
 }
 
 a:link { text-decoration: none; }

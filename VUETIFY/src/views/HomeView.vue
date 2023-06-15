@@ -1,6 +1,8 @@
 <template>
   <div class="home">
   </div>
+
+  <p>lol</p>
 </template>
 
 <script>
