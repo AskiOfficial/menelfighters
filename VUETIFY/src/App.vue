@@ -1,12 +1,18 @@
 <template>
   <nav>
     <right>
-      <router-link to="/"><v-icon icon="mdi-home"></v-icon>Strona Główna</router-link> |
-      <router-link to="/download"><v-icon icon="mdi-download"></v-icon>Pobieranie</router-link> |
-      <router-link to="/about"><v-icon icon="mdi-help"></v-icon>O Postaciach</router-link>
+      <router-link to="/">
+        <v-icon icon="mdi-home" />Strona Główna
+      </router-link> |
+      <router-link to="/download">
+        <v-icon icon="mdi-download" />Pobieranie
+      </router-link> |
+      <router-link to="/about">
+        <v-icon icon="mdi-help" />O Postaciach
+      </router-link>
     </right>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
@@ -40,4 +46,7 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+.inline{
+  display: inline;
+}
 </style>

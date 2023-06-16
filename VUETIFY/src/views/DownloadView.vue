@@ -1,5 +1,5 @@
 <template>
-  <span class="bg"></span>
+  <span class="bg" />
   <v-container class="backgroundImage">
     <h1 class="pa-5 text-center fixH2">
       <v-icon icon="mdi-download" />Pobieranie
@@ -10,11 +10,11 @@
       Menel Fighters 1.0.0
     </h2>
     <a
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+      href="https://cdn.kacperu.pl/menelfightes/menelfighters.zip"
       target="_blank"
     >
       <v-img
-        src="https://cdn.discordapp.com/attachments/1095791512593371148/1118847687987572756/pobieranie.jpg"
+        src="https://cdn.discordapp.com/attachments/1095791512593371148/1118977767724285953/pobieranie.png"
         alt="Pobierz"
         width="20%"
         height="15%"
@@ -34,6 +34,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 h2{
   color: #4B5320;
 }
@@ -48,8 +49,10 @@ h2{
   position: relative;
 }
 .gameName{
-  font-size: 50px;
-  outline-color: white;
-  outline-style: solid;
+  color: #c9c95f;
+  font-size: 100px;
+  font-family: 'Anton', sans-serif;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 </style>
